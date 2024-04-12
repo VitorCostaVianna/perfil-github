@@ -64,6 +64,36 @@ span {
     border-radius: 5px;
 }
 
+.imagem h3 {
+    color:purple;
+}
+.imagem {
+    display: flex;
+}
+
+.texto {
+    margin-left: 10px;
+}
+.twiter {
+    margin-left: 10px;
+}
+.icone {
+    margin-left: 10px;
+}
+.user {
+    margin-left: 90px;
+}
+
+.card {
+    margin-top: 15px;
+}
+.Colegas {
+    margin-top: 40px;
+}
+.Colegas .card {
+    margin-top: 15px;
+} 
+
 
 @media all and (min-width: 758px) {
 
