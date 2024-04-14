@@ -52,10 +52,14 @@ nav a {
     text-decoration: none;
     color: black;
 }
-nav ul li a:hover {
+nav a:hover {
     background-color: purple;
     border-radius: 5px;
     padding:6px;
+}
+
+header a {
+    text-decoration: none;
 }
 
 span {
@@ -134,7 +138,7 @@ span {
         margin-top: 20px;   
     }
     .Carrosel img {
-       height: 500px;
+       height: 600px;
     }
 
     .posicao {
@@ -143,5 +147,16 @@ span {
     }
     .posicao img {
         width: 200px;
+    }
+
+    .posicao .card {
+        margin: 10px;
+    }
+    footer {
+        text-align: center;
+    }
+    header img {
+        width: 220px;
+        height: 100%;
     }
 }
