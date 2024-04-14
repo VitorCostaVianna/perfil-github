@@ -105,5 +105,43 @@ span {
               "footer footer" auto / 2fr 10fr;
 
     }
-    
+    span a {
+        font-size: 250%;
+    }
+    span {
+        background-color: silver;
+        padding: 8px;
+        border-radius: 6px;
+    }
+    nav li {
+        font-size: 200%;
+        margin-left:10px ;
+    }
+    nav ul li a:hover {
+        background-color: purple;
+        border-radius: 6px;
+        padding:8px;
+    }
+    .imagem p {
+        font-size: 120%;
+    }
+    .repositorio {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(min(10rem, 100%), 1fr));
+        gap: 10px;
+    }
+    .Carrosel {
+        margin-top: 20px;   
+    }
+    .Carrosel img {
+       height: 500px;
+    }
+
+    .posicao {
+        display: flex;
+        justify-content:space-around;
+    }
+    .posicao img {
+        width: 200px;
+    }
 }
